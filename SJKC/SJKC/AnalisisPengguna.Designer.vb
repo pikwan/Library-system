@@ -129,7 +129,7 @@ Partial Class AnalisisPengguna
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(542, 236)
+        Me.Label4.Location = New System.Drawing.Point(593, 236)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(187, 24)
@@ -139,8 +139,8 @@ Partial Class AnalisisPengguna
         'ListBox5
         '
         Me.ListBox5.FormattingEnabled = True
-        Me.ListBox5.Location = New System.Drawing.Point(651, 262)
-        Me.ListBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox5.Location = New System.Drawing.Point(702, 262)
+        Me.ListBox5.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox5.Name = "ListBox5"
         Me.ListBox5.Size = New System.Drawing.Size(118, 121)
         Me.ListBox5.TabIndex = 10
@@ -148,8 +148,8 @@ Partial Class AnalisisPengguna
         'ListBox6
         '
         Me.ListBox6.FormattingEnabled = True
-        Me.ListBox6.Location = New System.Drawing.Point(542, 262)
-        Me.ListBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox6.Location = New System.Drawing.Point(593, 262)
+        Me.ListBox6.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox6.Name = "ListBox6"
         Me.ListBox6.Size = New System.Drawing.Size(114, 121)
         Me.ListBox6.TabIndex = 9
@@ -158,7 +158,7 @@ Partial Class AnalisisPengguna
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(270, 236)
+        Me.Label3.Location = New System.Drawing.Point(321, 236)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(244, 24)
@@ -168,8 +168,8 @@ Partial Class AnalisisPengguna
         'ListBox3
         '
         Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.Location = New System.Drawing.Point(379, 262)
-        Me.ListBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox3.Location = New System.Drawing.Point(430, 262)
+        Me.ListBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox3.Name = "ListBox3"
         Me.ListBox3.Size = New System.Drawing.Size(118, 121)
         Me.ListBox3.TabIndex = 7
@@ -177,8 +177,8 @@ Partial Class AnalisisPengguna
         'ListBox4
         '
         Me.ListBox4.FormattingEnabled = True
-        Me.ListBox4.Location = New System.Drawing.Point(270, 262)
-        Me.ListBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox4.Location = New System.Drawing.Point(321, 262)
+        Me.ListBox4.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox4.Name = "ListBox4"
         Me.ListBox4.Size = New System.Drawing.Size(114, 121)
         Me.ListBox4.TabIndex = 6
@@ -187,7 +187,7 @@ Partial Class AnalisisPengguna
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(6, 236)
+        Me.Label2.Location = New System.Drawing.Point(57, 236)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(264, 24)
@@ -197,8 +197,8 @@ Partial Class AnalisisPengguna
         'ListBox2
         '
         Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.Location = New System.Drawing.Point(115, 262)
-        Me.ListBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox2.Location = New System.Drawing.Point(166, 262)
+        Me.ListBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox2.Name = "ListBox2"
         Me.ListBox2.Size = New System.Drawing.Size(118, 121)
         Me.ListBox2.TabIndex = 4
@@ -206,8 +206,8 @@ Partial Class AnalisisPengguna
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(6, 262)
-        Me.ListBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox1.Location = New System.Drawing.Point(57, 262)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(114, 121)
         Me.ListBox1.TabIndex = 3
@@ -218,8 +218,8 @@ Partial Class AnalisisPengguna
         Me.SurveyDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.SurveyDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4})
         Me.SurveyDataGridView.DataSource = Me.SurveyBindingSource
-        Me.SurveyDataGridView.Location = New System.Drawing.Point(2, 16)
-        Me.SurveyDataGridView.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.SurveyDataGridView.Location = New System.Drawing.Point(53, 16)
+        Me.SurveyDataGridView.Margin = New System.Windows.Forms.Padding(2)
         Me.SurveyDataGridView.Name = "SurveyDataGridView"
         Me.SurveyDataGridView.RowTemplate.Height = 24
         Me.SurveyDataGridView.Size = New System.Drawing.Size(446, 209)
