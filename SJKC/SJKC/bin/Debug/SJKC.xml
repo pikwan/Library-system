@@ -52,6 +52,16 @@ Represents the strongly named DataTable class.
 Represents the strongly named DataTable class.
 </summary>
 </member>
+<member name="T:SJKC.DBDataSet.surveyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.CheckInDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
 <member name="T:SJKC.DBDataSet.ADMINRow">
 <summary>
 Represents strongly named DataRow class.
@@ -68,6 +78,16 @@ Represents strongly named DataRow class.
 </summary>
 </member>
 <member name="T:SJKC.DBDataSet.GURURow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.surveyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.CheckInRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
@@ -92,6 +112,16 @@ Row event argument class
 Row event argument class
 </summary>
 </member>
+<member name="T:SJKC.DBDataSet.surveyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.CheckInRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 <member name="T:SJKC.DBDataSetTableAdapters.ADMINTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
@@ -108,6 +138,16 @@ Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
 <member name="T:SJKC.DBDataSetTableAdapters.GURUTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSetTableAdapters.surveyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSetTableAdapters.CheckInTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>

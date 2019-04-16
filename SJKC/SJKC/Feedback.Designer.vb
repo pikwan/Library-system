@@ -53,9 +53,10 @@ Partial Class Feedback
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(220, Byte), Integer), CType(CType(6, Byte), Integer))
         Me.Label1.Font = New System.Drawing.Font("Showcard Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(210, 9)
+        Me.Label1.Location = New System.Drawing.Point(280, 11)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(536, 23)
+        Me.Label1.Size = New System.Drawing.Size(676, 30)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "MAKLUM BALAS SELEPAS MENGGUNAKAN PERPUSTAKAAN :"
         '
@@ -64,9 +65,10 @@ Partial Class Feedback
         Me.lblR.AutoSize = True
         Me.lblR.BackColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(186, Byte), Integer))
         Me.lblR.Font = New System.Drawing.Font("Showcard Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblR.Location = New System.Drawing.Point(261, 41)
+        Me.lblR.Location = New System.Drawing.Point(348, 50)
+        Me.lblR.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblR.Name = "lblR"
-        Me.lblR.Size = New System.Drawing.Size(495, 40)
+        Me.lblR.Size = New System.Drawing.Size(611, 52)
         Me.lblR.TabIndex = 1
         Me.lblR.Text = "1. Ruang yang dikunjungi / digunakan (Tandakan sahaja)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "    "
         '
@@ -78,9 +80,11 @@ Partial Class Feedback
         Me.GroupBox1.Controls.Add(Me.chkA)
         Me.GroupBox1.Controls.Add(Me.chkI)
         Me.GroupBox1.Controls.Add(Me.chkP)
-        Me.GroupBox1.Location = New System.Drawing.Point(265, 75)
+        Me.GroupBox1.Location = New System.Drawing.Point(353, 92)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(430, 73)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(573, 90)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         '
@@ -88,9 +92,10 @@ Partial Class Feedback
         '
         Me.chkPam.AutoSize = True
         Me.chkPam.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkPam.Location = New System.Drawing.Point(214, 28)
+        Me.chkPam.Location = New System.Drawing.Point(285, 34)
+        Me.chkPam.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkPam.Name = "chkPam"
-        Me.chkPam.Size = New System.Drawing.Size(213, 23)
+        Me.chkPam.Size = New System.Drawing.Size(264, 27)
         Me.chkPam.TabIndex = 4
         Me.chkPam.Text = "e. Ruang Pameran Bertema"
         Me.chkPam.UseVisualStyleBackColor = True
@@ -99,9 +104,10 @@ Partial Class Feedback
         '
         Me.chkS.AutoSize = True
         Me.chkS.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkS.Location = New System.Drawing.Point(214, 9)
+        Me.chkS.Location = New System.Drawing.Point(285, 11)
+        Me.chkS.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkS.Name = "chkS"
-        Me.chkS.Size = New System.Drawing.Size(134, 23)
+        Me.chkS.Size = New System.Drawing.Size(164, 27)
         Me.chkS.TabIndex = 3
         Me.chkS.Text = "d. Ruang Santai"
         Me.chkS.UseVisualStyleBackColor = True
@@ -110,9 +116,10 @@ Partial Class Feedback
         '
         Me.chkA.AutoSize = True
         Me.chkA.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkA.Location = New System.Drawing.Point(15, 47)
+        Me.chkA.Location = New System.Drawing.Point(20, 58)
+        Me.chkA.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkA.Name = "chkA"
-        Me.chkA.Size = New System.Drawing.Size(186, 23)
+        Me.chkA.Size = New System.Drawing.Size(227, 27)
         Me.chkA.TabIndex = 2
         Me.chkA.Text = "c. Ruang Akses Kendiri"
         Me.chkA.UseVisualStyleBackColor = True
@@ -121,9 +128,10 @@ Partial Class Feedback
         '
         Me.chkI.AutoSize = True
         Me.chkI.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkI.Location = New System.Drawing.Point(15, 28)
+        Me.chkI.Location = New System.Drawing.Point(20, 34)
+        Me.chkI.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkI.Name = "chkI"
-        Me.chkI.Size = New System.Drawing.Size(156, 23)
+        Me.chkI.Size = New System.Drawing.Size(193, 27)
         Me.chkI.TabIndex = 1
         Me.chkI.Text = "b. Ruang Interaktif"
         Me.chkI.UseVisualStyleBackColor = True
@@ -132,9 +140,10 @@ Partial Class Feedback
         '
         Me.chkP.AutoSize = True
         Me.chkP.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chkP.Location = New System.Drawing.Point(15, 9)
+        Me.chkP.Location = New System.Drawing.Point(20, 11)
+        Me.chkP.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.chkP.Name = "chkP"
-        Me.chkP.Size = New System.Drawing.Size(168, 23)
+        Me.chkP.Size = New System.Drawing.Size(207, 27)
         Me.chkP.TabIndex = 0
         Me.chkP.Text = "a. Ruang Pembacaan"
         Me.chkP.UseVisualStyleBackColor = True
@@ -144,9 +153,10 @@ Partial Class Feedback
         Me.lblT.AutoSize = True
         Me.lblT.BackColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(186, Byte), Integer))
         Me.lblT.Font = New System.Drawing.Font("Showcard Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblT.Location = New System.Drawing.Point(262, 171)
+        Me.lblT.Location = New System.Drawing.Point(349, 210)
+        Me.lblT.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblT.Name = "lblT"
-        Me.lblT.Size = New System.Drawing.Size(487, 20)
+        Me.lblT.Size = New System.Drawing.Size(595, 26)
         Me.lblT.TabIndex = 3
         Me.lblT.Text = "2. Tahap kepuasan penggunaan Pusat Sumber Confucius"
         '
@@ -157,9 +167,11 @@ Partial Class Feedback
         Me.GroupBox2.Controls.Add(Me.rbC)
         Me.GroupBox2.Controls.Add(Me.rbB)
         Me.GroupBox2.Controls.Add(Me.rbA)
-        Me.GroupBox2.Location = New System.Drawing.Point(268, 201)
+        Me.GroupBox2.Location = New System.Drawing.Point(357, 247)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(427, 71)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox2.Size = New System.Drawing.Size(569, 87)
         Me.GroupBox2.TabIndex = 4
         Me.GroupBox2.TabStop = False
         '
@@ -167,9 +179,10 @@ Partial Class Feedback
         '
         Me.rbD.AutoSize = True
         Me.rbD.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rbD.Location = New System.Drawing.Point(197, 42)
+        Me.rbD.Location = New System.Drawing.Point(263, 52)
+        Me.rbD.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rbD.Name = "rbD"
-        Me.rbD.Size = New System.Drawing.Size(89, 23)
+        Me.rbD.Size = New System.Drawing.Size(109, 27)
         Me.rbD.TabIndex = 3
         Me.rbD.TabStop = True
         Me.rbD.Text = "d. Lemah"
@@ -179,9 +192,10 @@ Partial Class Feedback
         '
         Me.rbC.AutoSize = True
         Me.rbC.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rbC.Location = New System.Drawing.Point(197, 13)
+        Me.rbC.Location = New System.Drawing.Point(263, 16)
+        Me.rbC.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rbC.Name = "rbC"
-        Me.rbC.Size = New System.Drawing.Size(126, 23)
+        Me.rbC.Size = New System.Drawing.Size(152, 27)
         Me.rbC.TabIndex = 2
         Me.rbC.TabStop = True
         Me.rbC.Text = "c. Memuaskan"
@@ -191,9 +205,10 @@ Partial Class Feedback
         '
         Me.rbB.AutoSize = True
         Me.rbB.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rbB.Location = New System.Drawing.Point(15, 42)
+        Me.rbB.Location = New System.Drawing.Point(20, 52)
+        Me.rbB.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rbB.Name = "rbB"
-        Me.rbB.Size = New System.Drawing.Size(75, 23)
+        Me.rbB.Size = New System.Drawing.Size(90, 27)
         Me.rbB.TabIndex = 1
         Me.rbB.TabStop = True
         Me.rbB.Text = "b. Baik"
@@ -203,9 +218,10 @@ Partial Class Feedback
         '
         Me.rbA.AutoSize = True
         Me.rbA.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rbA.Location = New System.Drawing.Point(15, 13)
+        Me.rbA.Location = New System.Drawing.Point(20, 16)
+        Me.rbA.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.rbA.Name = "rbA"
-        Me.rbA.Size = New System.Drawing.Size(116, 23)
+        Me.rbA.Size = New System.Drawing.Size(143, 27)
         Me.rbA.TabIndex = 0
         Me.rbA.TabStop = True
         Me.rbA.Text = "a. Cemerlang"
@@ -216,18 +232,20 @@ Partial Class Feedback
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(186, Byte), Integer))
         Me.Label2.Font = New System.Drawing.Font("Showcard Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(265, 297)
+        Me.Label2.Location = New System.Drawing.Point(353, 366)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(285, 20)
+        Me.Label2.Size = New System.Drawing.Size(355, 26)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "3. ULASAN KESELURUHAN (JIKA ADA)"
         '
         'RichTextBox1
         '
         Me.RichTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox1.Location = New System.Drawing.Point(268, 328)
+        Me.RichTextBox1.Location = New System.Drawing.Point(357, 404)
+        Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(420, 78)
+        Me.RichTextBox1.Size = New System.Drawing.Size(559, 95)
         Me.RichTextBox1.TabIndex = 6
         Me.RichTextBox1.Text = ""
         '
@@ -235,9 +253,10 @@ Partial Class Feedback
         '
         Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.Font = New System.Drawing.Font("Showcard Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(878, 465)
+        Me.Button1.Location = New System.Drawing.Point(1171, 572)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(95, 41)
+        Me.Button1.Size = New System.Drawing.Size(127, 50)
         Me.Button1.TabIndex = 7
         Me.Button1.Text = "HANTAR"
         Me.Button1.UseVisualStyleBackColor = False
@@ -246,9 +265,10 @@ Partial Class Feedback
         '
         Me.Button2.BackColor = System.Drawing.Color.White
         Me.Button2.Font = New System.Drawing.Font("Showcard Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(13, 464)
+        Me.Button2.Location = New System.Drawing.Point(17, 571)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(81, 42)
+        Me.Button2.Size = New System.Drawing.Size(108, 52)
         Me.Button2.TabIndex = 8
         Me.Button2.Text = "KEMBALI"
         Me.Button2.UseVisualStyleBackColor = False
@@ -256,17 +276,19 @@ Partial Class Feedback
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(209, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(11, Byte), Integer))
-        Me.Panel1.Location = New System.Drawing.Point(2, 35)
+        Me.Panel1.Location = New System.Drawing.Point(3, 43)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(985, 12)
+        Me.Panel1.Size = New System.Drawing.Size(1313, 15)
         Me.Panel1.TabIndex = 11
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(220, Byte), Integer), CType(CType(6, Byte), Integer))
-        Me.Panel2.Location = New System.Drawing.Point(-1, -41)
+        Me.Panel2.Location = New System.Drawing.Point(-1, -50)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(988, 79)
+        Me.Panel2.Size = New System.Drawing.Size(1317, 97)
         Me.Panel2.TabIndex = 12
         '
         'Panel3
@@ -280,20 +302,22 @@ Partial Class Feedback
         Me.Panel3.Controls.Add(Me.Label2)
         Me.Panel3.Controls.Add(Me.RichTextBox1)
         Me.Panel3.Controls.Add(Me.Button2)
-        Me.Panel3.Location = New System.Drawing.Point(-1, 43)
+        Me.Panel3.Location = New System.Drawing.Point(-1, 53)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(985, 524)
+        Me.Panel3.Size = New System.Drawing.Size(1313, 645)
         Me.Panel3.TabIndex = 14
         '
         'Feedback
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(984, 561)
+        Me.ClientSize = New System.Drawing.Size(1312, 690)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel3)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Feedback"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Feedback"
