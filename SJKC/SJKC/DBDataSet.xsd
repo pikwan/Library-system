@@ -2,7 +2,7 @@
 <xs:schema id="DBDataSet" targetNamespace="http://tempuri.org/DBDataSet.xsd" xmlns:mstns="http://tempuri.org/DBDataSet.xsd" xmlns="http://tempuri.org/DBDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
-      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
           <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DBConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DBConnectionString1 (MySettings)" PropertyReference="ApplicationSettings.SJKC.My.MySettings.GlobalReference.Default.DBConnectionString" Provider="System.Data.OleDb" />
         </Connections>
@@ -329,7 +329,18 @@
               <Mapping SourceColumn="kepuasan" DataSetColumn="kepuasan" />
               <Mapping SourceColumn="ulasan" DataSetColumn="ulasan" />
             </Mappings>
-            <Sources />
+            <Sources>
+              <DbSource ConnectionRef="DBConnectionString1 (MySettings)" DbObjectName="survey" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT kepuasan, COUNT(ID) AS Jumlah
+FROM     survey
+GROUP BY kepuasan</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CheckInTableAdapter" GeneratorDataComponentClassName="CheckInTableAdapter" Name="CheckIn" UserDataComponentName="CheckInTableAdapter">
             <MainSource>
