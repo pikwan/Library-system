@@ -377,7 +377,7 @@ GROUP BY kepuasan</CommandText>
   <xs:element name="DBDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DBDataSet" msprop:Generator_UserDSName="DBDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="ADMIN" msprop:Generator_TableClassName="ADMINDataTable" msprop:Generator_TableVarName="tableADMIN" msprop:Generator_TablePropName="ADMIN" msprop:Generator_RowDeletingName="ADMINRowDeleting" msprop:Generator_RowChangingName="ADMINRowChanging" msprop:Generator_RowEvHandlerName="ADMINRowChangeEventHandler" msprop:Generator_RowDeletedName="ADMINRowDeleted" msprop:Generator_UserTableName="ADMIN" msprop:Generator_RowChangedName="ADMINRowChanged" msprop:Generator_RowEvArgName="ADMINRowChangeEvent" msprop:Generator_RowClassName="ADMINRow">
+        <xs:element name="ADMIN" msprop:Generator_TableClassName="ADMINDataTable" msprop:Generator_TableVarName="tableADMIN" msprop:Generator_RowChangedName="ADMINRowChanged" msprop:Generator_TablePropName="ADMIN" msprop:Generator_RowDeletingName="ADMINRowDeleting" msprop:Generator_RowChangingName="ADMINRowChanging" msprop:Generator_RowEvHandlerName="ADMINRowChangeEventHandler" msprop:Generator_RowDeletedName="ADMINRowDeleted" msprop:Generator_RowClassName="ADMINRow" msprop:Generator_UserTableName="ADMIN" msprop:Generator_RowEvArgName="ADMINRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
@@ -405,7 +405,7 @@ GROUP BY kepuasan</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="PELAWAT" msprop:Generator_TableClassName="PELAWATDataTable" msprop:Generator_TableVarName="tablePELAWAT" msprop:Generator_TablePropName="PELAWAT" msprop:Generator_RowDeletingName="PELAWATRowDeleting" msprop:Generator_RowChangingName="PELAWATRowChanging" msprop:Generator_RowEvHandlerName="PELAWATRowChangeEventHandler" msprop:Generator_RowDeletedName="PELAWATRowDeleted" msprop:Generator_UserTableName="PELAWAT" msprop:Generator_RowChangedName="PELAWATRowChanged" msprop:Generator_RowEvArgName="PELAWATRowChangeEvent" msprop:Generator_RowClassName="PELAWATRow">
+        <xs:element name="PELAWAT" msprop:Generator_TableClassName="PELAWATDataTable" msprop:Generator_TableVarName="tablePELAWAT" msprop:Generator_RowChangedName="PELAWATRowChanged" msprop:Generator_TablePropName="PELAWAT" msprop:Generator_RowDeletingName="PELAWATRowDeleting" msprop:Generator_RowChangingName="PELAWATRowChanging" msprop:Generator_RowEvHandlerName="PELAWATRowChangeEventHandler" msprop:Generator_RowDeletedName="PELAWATRowDeleted" msprop:Generator_RowClassName="PELAWATRow" msprop:Generator_UserTableName="PELAWAT" msprop:Generator_RowEvArgName="PELAWATRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
@@ -433,7 +433,7 @@ GROUP BY kepuasan</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="STUDENTS" msprop:Generator_TableClassName="STUDENTSDataTable" msprop:Generator_TableVarName="tableSTUDENTS" msprop:Generator_TablePropName="STUDENTS" msprop:Generator_RowDeletingName="STUDENTSRowDeleting" msprop:Generator_RowChangingName="STUDENTSRowChanging" msprop:Generator_RowEvHandlerName="STUDENTSRowChangeEventHandler" msprop:Generator_RowDeletedName="STUDENTSRowDeleted" msprop:Generator_UserTableName="STUDENTS" msprop:Generator_RowChangedName="STUDENTSRowChanged" msprop:Generator_RowEvArgName="STUDENTSRowChangeEvent" msprop:Generator_RowClassName="STUDENTSRow">
+        <xs:element name="STUDENTS" msprop:Generator_TableClassName="STUDENTSDataTable" msprop:Generator_TableVarName="tableSTUDENTS" msprop:Generator_RowChangedName="STUDENTSRowChanged" msprop:Generator_TablePropName="STUDENTS" msprop:Generator_RowDeletingName="STUDENTSRowDeleting" msprop:Generator_RowChangingName="STUDENTSRowChanging" msprop:Generator_RowEvHandlerName="STUDENTSRowChangeEventHandler" msprop:Generator_RowDeletedName="STUDENTSRowDeleted" msprop:Generator_RowClassName="STUDENTSRow" msprop:Generator_UserTableName="STUDENTS" msprop:Generator_RowEvArgName="STUDENTSRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
@@ -483,7 +483,7 @@ GROUP BY kepuasan</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="GURU" msprop:Generator_TableClassName="GURUDataTable" msprop:Generator_TableVarName="tableGURU" msprop:Generator_TablePropName="GURU" msprop:Generator_RowDeletingName="GURURowDeleting" msprop:Generator_RowChangingName="GURURowChanging" msprop:Generator_RowEvHandlerName="GURURowChangeEventHandler" msprop:Generator_RowDeletedName="GURURowDeleted" msprop:Generator_UserTableName="GURU" msprop:Generator_RowChangedName="GURURowChanged" msprop:Generator_RowEvArgName="GURURowChangeEvent" msprop:Generator_RowClassName="GURURow">
+        <xs:element name="GURU" msprop:Generator_TableClassName="GURUDataTable" msprop:Generator_TableVarName="tableGURU" msprop:Generator_RowChangedName="GURURowChanged" msprop:Generator_TablePropName="GURU" msprop:Generator_RowDeletingName="GURURowDeleting" msprop:Generator_RowChangingName="GURURowChanging" msprop:Generator_RowEvHandlerName="GURURowChangeEventHandler" msprop:Generator_RowDeletedName="GURURowDeleted" msprop:Generator_RowClassName="GURURow" msprop:Generator_UserTableName="GURU" msprop:Generator_RowEvArgName="GURURowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
@@ -511,7 +511,7 @@ GROUP BY kepuasan</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="survey" msprop:Generator_TableClassName="surveyDataTable" msprop:Generator_TableVarName="tablesurvey" msprop:Generator_TablePropName="survey" msprop:Generator_RowDeletingName="surveyRowDeleting" msprop:Generator_RowChangingName="surveyRowChanging" msprop:Generator_RowEvHandlerName="surveyRowChangeEventHandler" msprop:Generator_RowDeletedName="surveyRowDeleted" msprop:Generator_UserTableName="survey" msprop:Generator_RowChangedName="surveyRowChanged" msprop:Generator_RowEvArgName="surveyRowChangeEvent" msprop:Generator_RowClassName="surveyRow">
+        <xs:element name="survey" msprop:Generator_TableClassName="surveyDataTable" msprop:Generator_TableVarName="tablesurvey" msprop:Generator_RowChangedName="surveyRowChanged" msprop:Generator_TablePropName="survey" msprop:Generator_RowDeletingName="surveyRowDeleting" msprop:Generator_RowChangingName="surveyRowChanging" msprop:Generator_RowEvHandlerName="surveyRowChangeEventHandler" msprop:Generator_RowDeletedName="surveyRowDeleted" msprop:Generator_RowClassName="surveyRow" msprop:Generator_UserTableName="survey" msprop:Generator_RowEvArgName="surveyRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
@@ -539,7 +539,7 @@ GROUP BY kepuasan</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="CheckIn" msprop:Generator_TableClassName="CheckInDataTable" msprop:Generator_TableVarName="tableCheckIn" msprop:Generator_TablePropName="CheckIn" msprop:Generator_RowDeletingName="CheckInRowDeleting" msprop:Generator_RowChangingName="CheckInRowChanging" msprop:Generator_RowEvHandlerName="CheckInRowChangeEventHandler" msprop:Generator_RowDeletedName="CheckInRowDeleted" msprop:Generator_UserTableName="CheckIn" msprop:Generator_RowChangedName="CheckInRowChanged" msprop:Generator_RowEvArgName="CheckInRowChangeEvent" msprop:Generator_RowClassName="CheckInRow">
+        <xs:element name="CheckIn" msprop:Generator_TableClassName="CheckInDataTable" msprop:Generator_TableVarName="tableCheckIn" msprop:Generator_RowChangedName="CheckInRowChanged" msprop:Generator_TablePropName="CheckIn" msprop:Generator_RowDeletingName="CheckInRowDeleting" msprop:Generator_RowChangingName="CheckInRowChanging" msprop:Generator_RowEvHandlerName="CheckInRowChangeEventHandler" msprop:Generator_RowDeletedName="CheckInRowDeleted" msprop:Generator_RowClassName="CheckInRow" msprop:Generator_UserTableName="CheckIn" msprop:Generator_RowEvArgName="CheckInRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
@@ -579,8 +579,7 @@ GROUP BY kepuasan</CommandText>
   </xs:element>
   <xs:annotation>
     <xs:appinfo>
-      <msdata:Relationship name="GURUCheckIn" msdata:parent="GURU" msdata:child="CheckIn" msdata:parentkey="GID" msdata:childkey="UID" msprop:Generator_UserChildTable="CheckIn" msprop:Generator_ChildPropName="GetCheckInRows" msprop:Generator_UserRelationName="GURUCheckIn" msprop:Generator_ParentPropName="GURURow" msprop:Generator_RelationVarName="relationGURUCheckIn" msprop:Generator_UserParentTable="GURU" />
-      <msdata:Relationship name="STUDENTSCheckIn" msdata:parent="STUDENTS" msdata:child="CheckIn" msdata:parentkey="UID" msdata:childkey="UID" msprop:Generator_UserChildTable="CheckIn" msprop:Generator_ChildPropName="GetCheckInRows" msprop:Generator_UserRelationName="STUDENTSCheckIn" msprop:Generator_ParentPropName="STUDENTSRow" msprop:Generator_RelationVarName="relationSTUDENTSCheckIn" msprop:Generator_UserParentTable="STUDENTS" />
+      <msdata:Relationship name="STUDENTSCheckIn" msdata:parent="STUDENTS" msdata:child="CheckIn" msdata:parentkey="UID" msdata:childkey="UID" msprop:Generator_UserChildTable="CheckIn" msprop:Generator_ChildPropName="GetCheckInRows" msprop:Generator_UserRelationName="STUDENTSCheckIn" msprop:Generator_RelationVarName="relationSTUDENTSCheckIn" msprop:Generator_UserParentTable="STUDENTS" msprop:Generator_ParentPropName="STUDENTSRow" />
     </xs:appinfo>
   </xs:annotation>
 </xs:schema>

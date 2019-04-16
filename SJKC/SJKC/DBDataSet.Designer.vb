@@ -37,8 +37,6 @@ Partial Public Class DBDataSet
     
     Private tableCheckIn As CheckInDataTable
     
-    Private relationGURUCheckIn As Global.System.Data.DataRelation
-    
     Private relationSTUDENTSCheckIn As Global.System.Data.DataRelation
     
     Private _schemaSerializationMode As Global.System.Data.SchemaSerializationMode = Global.System.Data.SchemaSerializationMode.IncludeSchema
@@ -318,7 +316,6 @@ Partial Public Class DBDataSet
                 Me.tableCheckIn.InitVars
             End If
         End If
-        Me.relationGURUCheckIn = Me.Relations("GURUCheckIn")
         Me.relationSTUDENTSCheckIn = Me.Relations("STUDENTSCheckIn")
     End Sub
     
@@ -342,8 +339,6 @@ Partial Public Class DBDataSet
         MyBase.Tables.Add(Me.tablesurvey)
         Me.tableCheckIn = New CheckInDataTable()
         MyBase.Tables.Add(Me.tableCheckIn)
-        Me.relationGURUCheckIn = New Global.System.Data.DataRelation("GURUCheckIn", New Global.System.Data.DataColumn() {Me.tableGURU.GIDColumn}, New Global.System.Data.DataColumn() {Me.tableCheckIn.UIDColumn}, false)
-        Me.Relations.Add(Me.relationGURUCheckIn)
         Me.relationSTUDENTSCheckIn = New Global.System.Data.DataRelation("STUDENTSCheckIn", New Global.System.Data.DataColumn() {Me.tableSTUDENTS.UIDColumn}, New Global.System.Data.DataColumn() {Me.tableCheckIn.UIDColumn}, false)
         Me.Relations.Add(Me.relationSTUDENTSCheckIn)
     End Sub
@@ -2155,11 +2150,11 @@ Partial Public Class DBDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Overloads Function AddCheckInRow(ByVal parentGURURowByGURUCheckIn As GURURow, ByVal DateT As Date) As CheckInRow
+        Public Overloads Function AddCheckInRow(ByVal parentSTUDENTSRowBySTUDENTSCheckIn As STUDENTSRow, ByVal DateT As Date) As CheckInRow
             Dim rowCheckInRow As CheckInRow = CType(Me.NewRow,CheckInRow)
             Dim columnValuesArray() As Object = New Object() {Nothing, Nothing, DateT}
-            If (Not (parentGURURowByGURUCheckIn) Is Nothing) Then
-                columnValuesArray(1) = parentGURURowByGURUCheckIn(1)
+            If (Not (parentSTUDENTSRowBySTUDENTSCheckIn) Is Nothing) Then
+                columnValuesArray(1) = parentSTUDENTSRowBySTUDENTSCheckIn(1)
             End If
             rowCheckInRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowCheckInRow)
@@ -2878,16 +2873,6 @@ Partial Public Class DBDataSet
         Public Sub SetGROUPNull()
             Me(Me.tableGURU.GROUPColumn) = Global.System.Convert.DBNull
         End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Function GetCheckInRows() As CheckInRow()
-            If (Me.Table.ChildRelations("GURUCheckIn") Is Nothing) Then
-                Return New CheckInRow(-1) {}
-            Else
-                Return CType(MyBase.GetChildRows(Me.Table.ChildRelations("GURUCheckIn")),CheckInRow())
-            End If
-        End Function
     End Class
     
     '''<summary>
@@ -3055,17 +3040,6 @@ Partial Public Class DBDataSet
             End Get
             Set
                 Me(Me.tableCheckIn.DateTColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Property GURURow() As GURURow
-            Get
-                Return CType(Me.GetParentRow(Me.Table.ParentRelations("GURUCheckIn")),GURURow)
-            End Get
-            Set
-                Me.SetParentRow(value, Me.Table.ParentRelations("GURUCheckIn"))
             End Set
         End Property
         
@@ -5799,15 +5773,6 @@ Namespace DBDataSetTableAdapters
                     allChangedRows.AddRange(updatedRows)
                 End If
             End If
-            If (Not (Me._gURUTableAdapter) Is Nothing) Then
-                Dim updatedRows() As Global.System.Data.DataRow = dataSet.GURU.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.ModifiedCurrent)
-                updatedRows = Me.GetRealUpdatedRows(updatedRows, allAddedRows)
-                If ((Not (updatedRows) Is Nothing)  _
-                            AndAlso (0 < updatedRows.Length)) Then
-                    result = (result + Me._gURUTableAdapter.Update(updatedRows))
-                    allChangedRows.AddRange(updatedRows)
-                End If
-            End If
             If (Not (Me._aDMINTableAdapter) Is Nothing) Then
                 Dim updatedRows() As Global.System.Data.DataRow = dataSet.ADMIN.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.ModifiedCurrent)
                 updatedRows = Me.GetRealUpdatedRows(updatedRows, allAddedRows)
@@ -5823,6 +5788,15 @@ Namespace DBDataSetTableAdapters
                 If ((Not (updatedRows) Is Nothing)  _
                             AndAlso (0 < updatedRows.Length)) Then
                     result = (result + Me._pELAWATTableAdapter.Update(updatedRows))
+                    allChangedRows.AddRange(updatedRows)
+                End If
+            End If
+            If (Not (Me._gURUTableAdapter) Is Nothing) Then
+                Dim updatedRows() As Global.System.Data.DataRow = dataSet.GURU.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.ModifiedCurrent)
+                updatedRows = Me.GetRealUpdatedRows(updatedRows, allAddedRows)
+                If ((Not (updatedRows) Is Nothing)  _
+                            AndAlso (0 < updatedRows.Length)) Then
+                    result = (result + Me._gURUTableAdapter.Update(updatedRows))
                     allChangedRows.AddRange(updatedRows)
                 End If
             End If
@@ -5862,14 +5836,6 @@ Namespace DBDataSetTableAdapters
                     allAddedRows.AddRange(addedRows)
                 End If
             End If
-            If (Not (Me._gURUTableAdapter) Is Nothing) Then
-                Dim addedRows() As Global.System.Data.DataRow = dataSet.GURU.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Added)
-                If ((Not (addedRows) Is Nothing)  _
-                            AndAlso (0 < addedRows.Length)) Then
-                    result = (result + Me._gURUTableAdapter.Update(addedRows))
-                    allAddedRows.AddRange(addedRows)
-                End If
-            End If
             If (Not (Me._aDMINTableAdapter) Is Nothing) Then
                 Dim addedRows() As Global.System.Data.DataRow = dataSet.ADMIN.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Added)
                 If ((Not (addedRows) Is Nothing)  _
@@ -5883,6 +5849,14 @@ Namespace DBDataSetTableAdapters
                 If ((Not (addedRows) Is Nothing)  _
                             AndAlso (0 < addedRows.Length)) Then
                     result = (result + Me._pELAWATTableAdapter.Update(addedRows))
+                    allAddedRows.AddRange(addedRows)
+                End If
+            End If
+            If (Not (Me._gURUTableAdapter) Is Nothing) Then
+                Dim addedRows() As Global.System.Data.DataRow = dataSet.GURU.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Added)
+                If ((Not (addedRows) Is Nothing)  _
+                            AndAlso (0 < addedRows.Length)) Then
+                    result = (result + Me._gURUTableAdapter.Update(addedRows))
                     allAddedRows.AddRange(addedRows)
                 End If
             End If
@@ -5928,6 +5902,14 @@ Namespace DBDataSetTableAdapters
                     allChangedRows.AddRange(deletedRows)
                 End If
             End If
+            If (Not (Me._gURUTableAdapter) Is Nothing) Then
+                Dim deletedRows() As Global.System.Data.DataRow = dataSet.GURU.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Deleted)
+                If ((Not (deletedRows) Is Nothing)  _
+                            AndAlso (0 < deletedRows.Length)) Then
+                    result = (result + Me._gURUTableAdapter.Update(deletedRows))
+                    allChangedRows.AddRange(deletedRows)
+                End If
+            End If
             If (Not (Me._pELAWATTableAdapter) Is Nothing) Then
                 Dim deletedRows() As Global.System.Data.DataRow = dataSet.PELAWAT.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Deleted)
                 If ((Not (deletedRows) Is Nothing)  _
@@ -5941,14 +5923,6 @@ Namespace DBDataSetTableAdapters
                 If ((Not (deletedRows) Is Nothing)  _
                             AndAlso (0 < deletedRows.Length)) Then
                     result = (result + Me._aDMINTableAdapter.Update(deletedRows))
-                    allChangedRows.AddRange(deletedRows)
-                End If
-            End If
-            If (Not (Me._gURUTableAdapter) Is Nothing) Then
-                Dim deletedRows() As Global.System.Data.DataRow = dataSet.GURU.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Deleted)
-                If ((Not (deletedRows) Is Nothing)  _
-                            AndAlso (0 < deletedRows.Length)) Then
-                    result = (result + Me._gURUTableAdapter.Update(deletedRows))
                     allChangedRows.AddRange(deletedRows)
                 End If
             End If
