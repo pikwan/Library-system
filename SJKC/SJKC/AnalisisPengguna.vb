@@ -32,7 +32,7 @@ Public Class AnalisisPengguna
             cn.Close()
 
         Catch
-            MsgBox("DBERROR : Error getting data, please try again", MsgBoxStyle.Exclamation)
+            ' MsgBox("DBERROR : Error getting data, please try again", MsgBoxStyle.Exclamation)
         End Try
 
         Try
@@ -48,6 +48,24 @@ Public Class AnalisisPengguna
                 ListBox3.Items.Add(rdrw("JUMLAH"))
             Loop
             cn2.Close()
+
+        Catch
+            'MsgBox("DBERROR : Error getting data, please try again", MsgBoxStyle.Exclamation)
+        End Try
+
+        Try
+            Dim username As String
+            Dim cn3 As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\DB.mdb;")
+            Dim cmd3 As OleDbCommand = New OleDbCommand("Select UID,count(ID) as JUMLAH from checkin group by UID", cn3)
+            cn3.Open()
+            Dim rdrw3 As OleDbDataReader
+            rdrw3 = cmd3.ExecuteReader
+            Do While (rdrw3.HasRows)
+                rdrw3.Read()
+                ListBox6.Items.Add(rdrw3("UID"))
+                ListBox5.Items.Add(rdrw3("JUMLAH"))
+            Loop
+            cn3.Close()
 
         Catch
             'MsgBox("DBERROR : Error getting data, please try again", MsgBoxStyle.Exclamation)
