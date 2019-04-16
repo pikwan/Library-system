@@ -23,9 +23,9 @@ Partial Class AnalisisPengguna
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim ChartArea3 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend3 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series3 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(AnalisisPengguna))
         Me.Chart1 = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -58,6 +58,9 @@ Partial Class AnalisisPengguna
         Me.SurveyBindingNavigatorSaveItem = New System.Windows.Forms.ToolStripButton()
         Me.ListBox2 = New System.Windows.Forms.ListBox()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.ListBox3 = New System.Windows.Forms.ListBox()
+        Me.ListBox4 = New System.Windows.Forms.ListBox()
         CType(Me.Chart1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
         CType(Me.SurveyBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -69,17 +72,17 @@ Partial Class AnalisisPengguna
         '
         'Chart1
         '
-        ChartArea3.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea3)
-        Legend3.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend3)
-        Me.Chart1.Location = New System.Drawing.Point(881, 178)
+        ChartArea1.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea1)
+        Legend1.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend1)
+        Me.Chart1.Location = New System.Drawing.Point(844, 39)
         Me.Chart1.Margin = New System.Windows.Forms.Padding(4)
         Me.Chart1.Name = "Chart1"
-        Series3.ChartArea = "ChartArea1"
-        Series3.Legend = "Legend1"
-        Series3.Name = "Series1"
-        Me.Chart1.Series.Add(Series3)
+        Series1.ChartArea = "ChartArea1"
+        Series1.Legend = "Legend1"
+        Series1.Name = "Series1"
+        Me.Chart1.Series.Add(Series1)
         Me.Chart1.Size = New System.Drawing.Size(400, 369)
         Me.Chart1.TabIndex = 0
         Me.Chart1.Text = "Chart1"
@@ -129,6 +132,9 @@ Partial Class AnalisisPengguna
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(12, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(186, Byte), Integer))
+        Me.Panel3.Controls.Add(Me.Label3)
+        Me.Panel3.Controls.Add(Me.ListBox3)
+        Me.Panel3.Controls.Add(Me.ListBox4)
         Me.Panel3.Controls.Add(Me.Label2)
         Me.Panel3.Controls.Add(Me.ListBox2)
         Me.Panel3.Controls.Add(Me.ListBox1)
@@ -145,7 +151,7 @@ Partial Class AnalisisPengguna
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Location = New System.Drawing.Point(13, 457)
+        Me.ListBox1.Location = New System.Drawing.Point(8, 322)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(150, 148)
         Me.ListBox1.TabIndex = 3
@@ -166,10 +172,10 @@ Partial Class AnalisisPengguna
         Me.SurveyDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.SurveyDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4})
         Me.SurveyDataGridView.DataSource = Me.SurveyBindingSource
-        Me.SurveyDataGridView.Location = New System.Drawing.Point(13, 151)
+        Me.SurveyDataGridView.Location = New System.Drawing.Point(3, 20)
         Me.SurveyDataGridView.Name = "SurveyDataGridView"
         Me.SurveyDataGridView.RowTemplate.Height = 24
-        Me.SurveyDataGridView.Size = New System.Drawing.Size(652, 257)
+        Me.SurveyDataGridView.Size = New System.Drawing.Size(595, 257)
         Me.SurveyDataGridView.TabIndex = 2
         '
         'DataGridViewTextBoxColumn1
@@ -327,7 +333,7 @@ Partial Class AnalisisPengguna
         '
         Me.ListBox2.FormattingEnabled = True
         Me.ListBox2.ItemHeight = 16
-        Me.ListBox2.Location = New System.Drawing.Point(158, 457)
+        Me.ListBox2.Location = New System.Drawing.Point(153, 322)
         Me.ListBox2.Name = "ListBox2"
         Me.ListBox2.Size = New System.Drawing.Size(156, 148)
         Me.ListBox2.TabIndex = 4
@@ -336,11 +342,39 @@ Partial Class AnalisisPengguna
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(13, 425)
+        Me.Label2.Location = New System.Drawing.Point(8, 290)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(329, 29)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Analisis Tahap Kepuasan : "
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(360, 290)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(307, 29)
+        Me.Label3.TabIndex = 8
+        Me.Label3.Text = "Analisis Ruang Dilawati : "
+        '
+        'ListBox3
+        '
+        Me.ListBox3.FormattingEnabled = True
+        Me.ListBox3.ItemHeight = 16
+        Me.ListBox3.Location = New System.Drawing.Point(505, 322)
+        Me.ListBox3.Name = "ListBox3"
+        Me.ListBox3.Size = New System.Drawing.Size(156, 148)
+        Me.ListBox3.TabIndex = 7
+        '
+        'ListBox4
+        '
+        Me.ListBox4.FormattingEnabled = True
+        Me.ListBox4.ItemHeight = 16
+        Me.ListBox4.Location = New System.Drawing.Point(360, 322)
+        Me.ListBox4.Name = "ListBox4"
+        Me.ListBox4.Size = New System.Drawing.Size(150, 148)
+        Me.ListBox4.TabIndex = 6
         '
         'AnalisisPengguna
         '
@@ -401,4 +435,7 @@ Partial Class AnalisisPengguna
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents ListBox2 As ListBox
     Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents ListBox3 As ListBox
+    Friend WithEvents ListBox4 As ListBox
 End Class

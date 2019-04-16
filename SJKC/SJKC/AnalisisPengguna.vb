@@ -35,6 +35,24 @@ Public Class AnalisisPengguna
             MsgBox("DBERROR : Error getting data, please try again", MsgBoxStyle.Exclamation)
         End Try
 
+        Try
+            Dim username As String
+            Dim cn2 As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\DB.mdb;")
+            Dim cmd2 As OleDbCommand = New OleDbCommand("Select ruang,count(ID) as JUMLAH from survey group by ruang", cn2)
+            cn2.Open()
+            Dim rdrw As OleDbDataReader
+            rdrw = cmd2.ExecuteReader
+            Do While (rdrw.HasRows)
+                rdrw.Read()
+                ListBox4.Items.Add(rdrw("ruang"))
+                ListBox3.Items.Add(rdrw("JUMLAH"))
+            Loop
+            cn2.Close()
+
+        Catch
+            'MsgBox("DBERROR : Error getting data, please try again", MsgBoxStyle.Exclamation)
+        End Try
+
     End Sub
 
     Private Sub BindingNavigatorMoveNextItem_Click(sender As Object, e As EventArgs) Handles BindingNavigatorMoveNextItem.Click
@@ -42,6 +60,10 @@ Public Class AnalisisPengguna
     End Sub
 
     Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
+
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
 End Class
