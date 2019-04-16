@@ -4,5 +4,11 @@
         Me.Hide()
     End Sub
 
+    Private Sub SenaraiGuru_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub ListBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox2.SelectedIndexChanged
+
+    End Sub
 End Class

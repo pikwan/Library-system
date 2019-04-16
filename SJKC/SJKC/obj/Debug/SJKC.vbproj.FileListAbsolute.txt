@@ -46,3 +46,29 @@ C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-sy
 C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.vbprojResolveAssemblyReference.cache
 C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.Welcome.resources
 C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.CheckIn.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\bin\Debug\DB.mdb
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\bin\Debug\SJKC.exe.config
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\bin\Debug\SJKC.exe
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\bin\Debug\SJKC.pdb
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\bin\Debug\SJKC.xml
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.vbprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.Admin.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.AnalisisPengguna.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.CheckIn.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.FrontPage.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.Guru.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.Kemaskini.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.Pelawat.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.Pelajar.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.AdminLogin.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.Feedback.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.Resources.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.SenaraiGuru.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.SenaraiPelajar.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.SenaraiPelawat.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.Welcome.resources
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.vbproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.exe
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.xml
+C:\Users\user\Documents\GitHub\Library-system\SJKC\SJKC\obj\Debug\SJKC.pdb
