@@ -37,20 +37,18 @@ Partial Class SenaraiGuru
         Me.ListBox3 = New System.Windows.Forms.ListBox()
         Me.ListBox2 = New System.Windows.Forms.ListBox()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.GURUBindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.DBDataSet = New SJKC.DBDataSet()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.DBDataSet = New SJKC.DBDataSet()
         Me.GURUBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.GURUTableAdapter = New SJKC.DBDataSetTableAdapters.GURUTableAdapter()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
-        CType(Me.GURUBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DBDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel4.SuspendLayout()
+        CType(Me.DBDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GURUBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -175,7 +173,7 @@ Partial Class SenaraiGuru
         '
         'ListBox3
         '
-        Me.ListBox3.DataSource = Me.GURUBindingSource1
+        Me.ListBox3.DataSource = Me.GURUBindingSource
         Me.ListBox3.DisplayMember = "GROUP"
         Me.ListBox3.FormattingEnabled = True
         Me.ListBox3.ItemHeight = 16
@@ -187,7 +185,7 @@ Partial Class SenaraiGuru
         '
         'ListBox2
         '
-        Me.ListBox2.DataSource = Me.GURUBindingSource1
+        Me.ListBox2.DataSource = Me.GURUBindingSource
         Me.ListBox2.DisplayMember = "NAMA"
         Me.ListBox2.FormattingEnabled = True
         Me.ListBox2.ItemHeight = 16
@@ -199,7 +197,7 @@ Partial Class SenaraiGuru
         '
         'ListBox1
         '
-        Me.ListBox1.DataSource = Me.GURUBindingSource1
+        Me.ListBox1.DataSource = Me.GURUBindingSource
         Me.ListBox1.DisplayMember = "GID"
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 16
@@ -208,16 +206,6 @@ Partial Class SenaraiGuru
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(84, 452)
         Me.ListBox1.TabIndex = 25
-        '
-        'GURUBindingSource1
-        '
-        Me.GURUBindingSource1.DataMember = "GURU"
-        Me.GURUBindingSource1.DataSource = Me.DBDataSet
-        '
-        'DBDataSet
-        '
-        Me.DBDataSet.DataSetName = "DBDataSet"
-        Me.DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'Panel4
         '
@@ -260,9 +248,15 @@ Partial Class SenaraiGuru
         Me.Label4.TabIndex = 20
         Me.Label4.Text = "Jawatan"
         '
+        'DBDataSet
+        '
+        Me.DBDataSet.DataSetName = "DBDataSet"
+        Me.DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
         'GURUBindingSource
         '
         Me.GURUBindingSource.DataMember = "GURU"
+        Me.GURUBindingSource.DataSource = Me.DBDataSet
         '
         'GURUTableAdapter
         '
@@ -286,10 +280,9 @@ Partial Class SenaraiGuru
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
-        CType(Me.GURUBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DBDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
+        CType(Me.DBDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GURUBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -313,8 +306,7 @@ Partial Class SenaraiGuru
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents GURUTableAdapter As DBDataSetTableAdapters.GURUTableAdapter
-    Friend WithEvents GURUBindingSource As BindingSource
-    Friend WithEvents GURUBindingSource1 As BindingSource
     Friend WithEvents DBDataSet As DBDataSet
+    Friend WithEvents GURUBindingSource As BindingSource
+    Friend WithEvents GURUTableAdapter As DBDataSetTableAdapters.GURUTableAdapter
 End Class
