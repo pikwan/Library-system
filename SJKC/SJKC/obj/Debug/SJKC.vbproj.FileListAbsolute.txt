@@ -20,3 +20,29 @@ c:\users\user\source\repos\SJKC\SJKC\obj\Debug\SJKC.vbproj.CoreCompileInputs.cac
 c:\users\user\source\repos\SJKC\SJKC\obj\Debug\SJKC.exe
 c:\users\user\source\repos\SJKC\SJKC\obj\Debug\SJKC.xml
 c:\users\user\source\repos\SJKC\SJKC\obj\Debug\SJKC.pdb
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\bin\Debug\DB.mdb
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\bin\Debug\SJKC.exe.config
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\bin\Debug\SJKC.exe
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\bin\Debug\SJKC.pdb
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\bin\Debug\SJKC.xml
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.Admin.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.AnalisisPengguna.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.FrontPage.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.Guru.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.Pelawat.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.Pelajar.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.AdminLogin.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.Feedback.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.Resources.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.SenaraiGuru.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.SenaraiPelajar.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.SenaraiPelawat.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.vbproj.GenerateResource.Cache
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.vbproj.CoreCompileInputs.cache
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.exe
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.xml
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.pdb
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.Kemaskini.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.vbprojResolveAssemblyReference.cache
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.Welcome.resources
+C:\Users\myhyazid\Desktop\Bachelor Of Technology\Sem 2\OOP Submission\Library-system\SJKC\SJKC\obj\Debug\SJKC.CheckIn.resources

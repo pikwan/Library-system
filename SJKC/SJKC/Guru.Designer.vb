@@ -48,9 +48,10 @@ Partial Class Guru
         Me.lblG.AutoSize = True
         Me.lblG.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(220, Byte), Integer), CType(CType(6, Byte), Integer))
         Me.lblG.Font = New System.Drawing.Font("Showcard Gothic", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblG.Location = New System.Drawing.Point(416, 30)
+        Me.lblG.Location = New System.Drawing.Point(555, 37)
+        Me.lblG.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblG.Name = "lblG"
-        Me.lblG.Size = New System.Drawing.Size(159, 60)
+        Me.lblG.Size = New System.Drawing.Size(198, 74)
         Me.lblG.TabIndex = 0
         Me.lblG.Text = "GURU"
         '
@@ -59,9 +60,10 @@ Partial Class Guru
         Me.lblMasukkan.AutoSize = True
         Me.lblMasukkan.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(183, Byte), Integer), CType(CType(178, Byte), Integer))
         Me.lblMasukkan.Font = New System.Drawing.Font("Showcard Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblMasukkan.Location = New System.Drawing.Point(333, 200)
+        Me.lblMasukkan.Location = New System.Drawing.Point(444, 246)
+        Me.lblMasukkan.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblMasukkan.Name = "lblMasukkan"
-        Me.lblMasukkan.Size = New System.Drawing.Size(183, 17)
+        Me.lblMasukkan.Size = New System.Drawing.Size(230, 21)
         Me.lblMasukkan.TabIndex = 1
         Me.lblMasukkan.Text = "Masukkan ID Guru Anda :"
         '
@@ -71,9 +73,10 @@ Partial Class Guru
         Me.lblR.BackColor = System.Drawing.Color.White
         Me.lblR.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblR.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblR.Location = New System.Drawing.Point(48, 142)
+        Me.lblR.Location = New System.Drawing.Point(64, 175)
+        Me.lblR.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblR.Name = "lblR"
-        Me.lblR.Size = New System.Drawing.Size(208, 146)
+        Me.lblR.Size = New System.Drawing.Size(258, 182)
         Me.lblR.TabIndex = 2
         Me.lblR.Text = "Rujukan ID :" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "G01 Guru Besar" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "G02 Guru Kanan Pentadbiran" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "G03 Guru Kanan HEM" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "G04" &
     " Guru Kanan Kokurikulum" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "G05 Guru Penyelaras PSS" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "G06 Guru Penyelaras ICT" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "G07 G" &
@@ -82,18 +85,20 @@ Partial Class Guru
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(548, 195)
+        Me.TextBox1.Location = New System.Drawing.Point(731, 240)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(113, 26)
+        Me.TextBox1.Size = New System.Drawing.Size(149, 30)
         Me.TextBox1.TabIndex = 3
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.Font = New System.Drawing.Font("Showcard Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(873, 423)
+        Me.Button1.Location = New System.Drawing.Point(1164, 521)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(95, 41)
+        Me.Button1.Size = New System.Drawing.Size(127, 50)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "HANTAR"
         Me.Button1.UseVisualStyleBackColor = False
@@ -102,9 +107,10 @@ Partial Class Guru
         '
         Me.Button5.BackColor = System.Drawing.Color.White
         Me.Button5.Font = New System.Drawing.Font("Showcard Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(12, 423)
+        Me.Button5.Location = New System.Drawing.Point(16, 521)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(101, 41)
+        Me.Button5.Size = New System.Drawing.Size(135, 50)
         Me.Button5.TabIndex = 7
         Me.Button5.Text = "KEMBALI"
         Me.Button5.UseVisualStyleBackColor = False
@@ -113,9 +119,10 @@ Partial Class Guru
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(220, Byte), Integer), CType(CType(6, Byte), Integer))
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(840, 15)
+        Me.PictureBox2.Location = New System.Drawing.Point(1120, 18)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(128, 117)
+        Me.PictureBox2.Size = New System.Drawing.Size(171, 144)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 9
         Me.PictureBox2.TabStop = False
@@ -124,9 +131,10 @@ Partial Class Guru
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(220, Byte), Integer), CType(CType(6, Byte), Integer))
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(16, 15)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(128, 117)
+        Me.PictureBox1.Size = New System.Drawing.Size(171, 144)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 8
         Me.PictureBox1.TabStop = False
@@ -134,17 +142,19 @@ Partial Class Guru
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(209, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(11, Byte), Integer))
-        Me.Panel1.Location = New System.Drawing.Point(0, 78)
+        Me.Panel1.Location = New System.Drawing.Point(0, 96)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(984, 12)
+        Me.Panel1.Size = New System.Drawing.Size(1312, 15)
         Me.Panel1.TabIndex = 10
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(244, Byte), Integer), CType(CType(220, Byte), Integer), CType(CType(6, Byte), Integer))
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(984, 79)
+        Me.Panel2.Size = New System.Drawing.Size(1312, 97)
         Me.Panel2.TabIndex = 11
         '
         'Panel3
@@ -156,42 +166,46 @@ Partial Class Guru
         Me.Panel3.Controls.Add(Me.TextBox1)
         Me.Panel3.Controls.Add(Me.lblMasukkan)
         Me.Panel3.Controls.Add(Me.Panel4)
-        Me.Panel3.Location = New System.Drawing.Point(0, 85)
+        Me.Panel3.Location = New System.Drawing.Point(0, 105)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(984, 480)
+        Me.Panel3.Size = New System.Drawing.Size(1312, 591)
         Me.Panel3.TabIndex = 12
         '
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(183, Byte), Integer), CType(CType(178, Byte), Integer))
         Me.Panel4.Controls.Add(Me.PictureBox3)
-        Me.Panel4.Location = New System.Drawing.Point(327, 60)
+        Me.Panel4.Location = New System.Drawing.Point(436, 74)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(350, 280)
+        Me.Panel4.Size = New System.Drawing.Size(467, 345)
         Me.Panel4.TabIndex = 13
         '
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(183, Byte), Integer), CType(CType(178, Byte), Integer))
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(119, 13)
+        Me.PictureBox3.Location = New System.Drawing.Point(159, 16)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox3.Size = New System.Drawing.Size(133, 123)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox3.TabIndex = 0
         Me.PictureBox3.TabStop = False
         '
         'Guru
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(984, 561)
+        Me.ClientSize = New System.Drawing.Size(1312, 690)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lblG)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel3)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Guru"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Guru"

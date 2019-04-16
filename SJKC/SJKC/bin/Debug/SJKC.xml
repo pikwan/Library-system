@@ -22,5 +22,135 @@ SJKC
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:SJKC.My.Resources.Resources.welc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.ADMINDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.PELAWATDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.STUDENTSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.GURUDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.ADMINRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.PELAWATRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.STUDENTSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.GURURow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.ADMINRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.PELAWATRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.STUDENTSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SJKC.DBDataSet.GURURowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SJKC.DBDataSetTableAdapters.ADMINTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSetTableAdapters.PELAWATTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSetTableAdapters.STUDENTSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSetTableAdapters.GURUTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SJKC.DBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SJKC.DBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SJKC.DBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SJKC.DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SJKC.DBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SJKC.DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SJKC.DBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SJKC.DBDataSetTableAdapters.TableAdapterManager.UpdateAll(SJKC.DBDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SJKC.DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SJKC.DBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>
